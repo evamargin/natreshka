@@ -1,4 +1,4 @@
-# Natreshka - Neuropixels 2.0 implant
+# Natreshka - Neuropixels 2.0 implant ([pdf](https://github.com/evamargin/natreshka/blob/main/Natreshka%20-%20Neuropixels%202.0.pdf))
 
 ## 1. Introduction
 
