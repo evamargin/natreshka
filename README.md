@@ -16,23 +16,24 @@ This guide will take you through every step - from printing and assembling to im
 - [2. Materials and equipment](#2-materials-and-equipment)
   - [2.1. List of printed and sourced parts](#21-list-of-printed-and-sourced-parts)
     - [2.1.1. Parts list (3D printed)](#211-parts-list-3d-printed)
-    - [2.1.2. Parts list (non-printed)](#212-parts-list-non‑printed)
-  - [2.2. Tools Required](#22-tools-required)
+    - [2.1.2. Parts list (non-printed)](#212-parts-list-non-printed)
+  - [2.2 Tools Required](#22-tools-required)
     - [2.2.1. Recommended 3D printers, filaments](#221-recommended-3d-printers-filaments)
     - [2.2.2. Assembly tools](#222-assembly-tools)
 - [3. 3D printing the components](#3-3d-printing-the-components)
   - [3.1. 3D printing setting](#31-3d-printing-setting)
-  - [3.2. Post‑Printing Processing](#32-post-printing-processing)
-- [4. From the assembly to the implantation](#4-from-the-assembly-to-the-implantation)
-  - [4.1. Building a payload](#41-building-a-payload)
-  - [4.2. Full assembly](#42-full-assembly)
+  - [3.2. Post-Printing Processing](#32-post-printing-processing)
+- [4. Natreshka’s lifecycle](#4-natreshkas-lifecycle)
+  - [4.1. Build a payload](#41-build-a-payload)
+  - [4.2. Assemble](#42-assemble)
     - [4.2.1. Prepare the parts](#421-prepare-the-parts)
     - [4.2.2. Assemble the implant](#422-assemble-the-implant)
     - [4.2.3. Prepare the cable](#423-prepare-the-cable)
-- [5. During the surgery](#5-during-the-surgery)
-- [6. Recovery](#6-recovery)
-- [7. Cleaning](#7-cleaning)
-- [8. Storage](#8-storage)
+  - [4.3. Implant](#43-implant)
+  - [4.4. Record](#44-record)
+  - [4.5. Recover](#45-recover)
+    - [4.5.1. Clean](#451-clean)
+  - [4.6. Store](#46-store)
 
 ## 2. Materials and equipment
 
@@ -117,9 +118,9 @@ The position of the details is important (see Fig. 4). Printing settings are ava
 
 **Tip #3:** Check that all printed parts have straight walls where intended. When the payload is placed in the shell and covered with the cap, the gap between the shell and cap should be uniform. If there are large deviations, reprint the affected part.
 
-## 4. From the assembly to the implantation
+## 4. Natreshka's lifecycle
 
-### 4.1. Building a payload
+### 4.1. Build a payload
 
 <p align="center">
   <img src="figs/Fig6.png" alt="Figure 6" width="800"/>
@@ -142,13 +143,15 @@ The position of the details is important (see Fig. 4). Printing settings are ava
 
 **Tip #5:** In this design, the ground wire connects directly to the headstage, not the flex cable (Fig. 7). Solder it to the headstage ground pad in advance. This setup has been tested and works reliably.
 
+**Tip #6:** The headstage should fit precisely into the payload and sit tight. If you feel some squeeze, remove the payload and thoroughly clean any 3D-printing residue from its corners before trying again. Precise placement of the headstage is very important to get Omnetics connected in the assembled implant!
+
 <p align="center">
   <img src="figs/Fig7.png" alt="Figure 7" width="200"/>
 </p>
 
 **Figure 7.** The site for the ground wire connection on the headstage.
 
-### 4.2. Full assembly
+### 4.2. Assemble
 
 #### 4.2.1. Prepare the parts
 
@@ -185,9 +188,9 @@ The position of the details is important (see Fig. 4). Printing settings are ava
 7. Apply more glue to the outer side of the adaptor to secure the cable.
 8. Once dry, test re-plugging the adaptor. If it doesn’t fit due to excess glue, file it down slightly.
 
-**Tip #6:** Avoid using too much glue in Step 3 - it can damage the connector or headstage. If available, optically curable dental cement can be used here: apply, plug in the adaptor, and cure with UV. However, for Steps 5 and 6, superglue is better - dental cement may not bond well to plastic.
+**Tip #7:** Avoid using too much glue in Step 3 - it can damage the connector or headstage. If available, optically curable dental cement can be used here: apply, plug in the adaptor, and cure with UV. However, for Steps 5 and 6, superglue is better - dental cement may not bond well to plastic.
 
-**Tip #7:** If you prefer using the Omnetics cable instead of the classic Neropixel twisted pair, you can make an adaptor from 4-pin Omnetics to 12-pin Omnetics (Fig. 10)
+**Tip #8:** If you prefer using the Omnetics cable instead of the classic Neropixel twisted pair, you can make an adaptor from 4-pin Omnetics to 12-pin Omnetics (Fig. 10)
 
 <p align="center">
   <img src="figs/Fig10.png" alt="Figure 10" width="600"/>
@@ -195,7 +198,7 @@ The position of the details is important (see Fig. 4). Printing settings are ava
 
 **Figure 10**. 4 to 12 pins Omnetics adaptor.
 
-## 5. During the surgery
+## 4.3. Implant
 
 To fix the implant in a stereotax, we place M3 40mm screw in the cap (Fig. 11) and atteach it to a custom holder. 
 
@@ -205,11 +208,16 @@ To fix the implant in a stereotax, we place M3 40mm screw in the cap (Fig. 11) a
 
 **Figure 11.** Fully assembled probe ready for the implantation. 
 
-**Tip #8:** Test the assembled probe before the implantation: connect it to the system to confirm it's detected. Detection might fail if the headstage and the flex cable were not connected properly.
+**Tip #9:** Test the assembled probe before the implantation: connect it to the system to confirm it's detected. Detection might fail if the headstage and the flex cable were not connected properly.
 
-**Tip #9:** Use Vaseline to seal the window where the shanks exit the implant. 
+**Tip #10:** Use Vaseline to seal the window where the shanks exit the implant. 
 
-## 6. Recovery
+## 4.4. Record
+
+- Gently restrain the animal, open the lid, and plug in the adapter to begin recording.
+- When finished, unplug it and close the lid to protect the headstage and connector.
+
+## 4.5. Recover
 
 <p align="center">
   <img src="figs/Fig12.png" alt="Figure 12" width="800"/>
@@ -226,7 +234,7 @@ To fix the implant in a stereotax, we place M3 40mm screw in the cap (Fig. 11) a
 7. Once the shanks are fully retrieved, lift the protection with the probe vertically (Fig. 12E).
 8. Transfer the payload with a cap attached into the new cap (Fig. 12F), repeating the process described in 4.2.2 Assemble the implant.
 
-## 7. Cleaning
+### 4.5.1. Clean
 
 <p align="center">
   <img src="figs/Fig13.png" alt="Figure 13" width="300"/>
@@ -239,8 +247,8 @@ To fix the implant in a stereotax, we place M3 40mm screw in the cap (Fig. 11) a
 3. Prepare the solution for the probe cleaning (we use tergazyme for Stage 1 and isopropyl for Stage 2).
 4. Place the probe in the glass with the cleaning solution (Fig. 13).
 
-**Tip #10:** Be careful with the amount of cleaning solution. It should cover the shanks but not reach the level of the headstage.
+**Tip #11:** Be careful with the amount of cleaning solution. It should cover the shanks but not reach the level of the headstage.
 
-## 8. Storage
+## 4.6. Store
 
 To store the probe safely, insert the assembled implant fully into the protection and tighten the M3 10 mm screws on the protection (Fig. 8E).
